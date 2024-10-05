@@ -3,3 +3,6 @@ build
 *.egg-info
 venv
 .idea
+/tests/.pytest_cache/
+*/__pycache__/*
+*.pyc

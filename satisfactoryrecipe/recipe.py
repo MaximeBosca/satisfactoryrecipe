@@ -1,5 +1,5 @@
-from satisfactory_recipe.machine import Machine
-from satisfactory_recipe.item import Item
+from satisfactoryrecipe.machine import Machine
+from satisfactoryrecipe.item import Item
 from typing import List, Optional
 
 
