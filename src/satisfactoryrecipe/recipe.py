@@ -1,5 +1,5 @@
-from machine import Machine
-from item import Item
+from .machine import Machine
+from .item import Item
 from typing import List, Optional
 
 
