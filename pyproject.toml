@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "satisfactoryrecipe"
+version = "0.0.1"
+authors = [
+  { name="zolorah"},
+]
+description = "Python classes for Satisfactory recipe"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+Homepage = "https://github.com/MaximeBosca/satisfactoryrecipe"
+Issues = "https://github.com/MaximeBosca/satisfactoryrecipe/issues"

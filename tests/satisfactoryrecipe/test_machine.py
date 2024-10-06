@@ -1,4 +1,4 @@
-from satisfactoryrecipe.machine import Machine
+from src.satisfactoryrecipe import Machine
 
 
 def test_create_machine():

@@ -1,5 +1,5 @@
-from satisfactoryrecipe.recipe import Recipe
-from satisfactoryrecipe.item import Item
+from src.satisfactoryrecipe.recipe import Recipe
+from src.satisfactoryrecipe.item import Item
 
 
 def test_create_recipe():

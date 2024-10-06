@@ -1,4 +1,4 @@
-from satisfactoryrecipe.item import Item
+from src.satisfactoryrecipe.item import Item
 
 
 def test_create_item():
