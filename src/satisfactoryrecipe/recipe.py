@@ -27,4 +27,6 @@ class Recipe:
         self.outputs.append(RecipeComponent(item=item, quantity=quantity))
 
     def __repr__(self):
-        return f"Recipe : {self.name}"
+        return (f"{self.name} : {self.machine} ({self.crafting_time}s), "
+                f"Inputs : {self.inputs}, "
+                f"Outputs : {self.outputs} ")
