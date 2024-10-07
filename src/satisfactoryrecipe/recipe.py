@@ -8,6 +8,9 @@ class RecipeComponent:
         self.item = item
         self.quantity = quantity
 
+    def __repr__(self):
+        return f"{self.quantity} x {self.item}"
+
 
 class Recipe:
     inputs: List[RecipeComponent]
