@@ -14,7 +14,7 @@ class Recipe:
     inputs: List[RecipeItem]
     outputs: List[RecipeItem]
 
-    def __init__(self, name: str, machine: Optional[Machine], crafting_time: int):
+    def __init__(self, name: str, machine: Optional[Machine] = None, crafting_time: Optional[int] = None):
         self.name, self.machine, self.crafting_time = name, machine, crafting_time
         self.inputs, self.outputs = [], []
 

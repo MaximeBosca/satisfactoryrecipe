@@ -1,5 +1,8 @@
+from typing import Optional
+
+
 class Machine:
-    def __init__(self, name: str, image_path: str):
+    def __init__(self, name: str, image_path: Optional[str] = None):
         self.name, self.image_path = name, image_path
 
     def __eq__(self, other):
