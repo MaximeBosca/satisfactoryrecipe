@@ -4,7 +4,7 @@ from typing import List, Optional
 
 
 class RecipeComponent:
-    def __init__(self, item: Item, quantity: int):
+    def __init__(self, item: Item, quantity: float):
         self.item = item
         self.quantity = quantity
 
@@ -20,10 +20,10 @@ class Recipe:
         self.name, self.machine, self.crafting_time = name, machine, crafting_time
         self.inputs, self.outputs = [], []
 
-    def add_input(self, item: Item, quantity: int):
+    def add_input(self, item: Item, quantity: float):
         self.inputs.append(RecipeComponent(item=item, quantity=quantity))
 
-    def add_output(self, item: Item, quantity: int):
+    def add_output(self, item: Item, quantity: float):
         self.outputs.append(RecipeComponent(item=item, quantity=quantity))
 
     def __repr__(self):
