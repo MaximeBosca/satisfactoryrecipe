@@ -16,7 +16,7 @@ class Recipe:
     inputs: List[RecipeComponent]
     outputs: List[RecipeComponent]
 
-    def __init__(self, name: str, machine: Optional[Machine] = None, crafting_time: Optional[int] = None):
+    def __init__(self, name: str, machine: Optional[Machine] = None, crafting_time: Optional[float] = None):
         self.name, self.machine, self.crafting_time = name, machine, crafting_time
         self.inputs, self.outputs = [], []
 
